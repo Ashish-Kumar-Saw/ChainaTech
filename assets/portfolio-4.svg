@@ -1,0 +1,24 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#EF4444" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#grad4)" />
+  
+  <!-- Abstract design elements -->
+  <rect x="50" y="50" width="300" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.2" />
+  <rect x="50" y="110" width="300" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.2" />
+  <rect x="50" y="170" width="300" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.2" />
+  <rect x="50" y="230" width="150" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.3" />
+  
+  <!-- ChainTech logo placeholder -->
+  <g transform="translate(320, 250)">
+    <path d="M30,0 L60,30 L30,60 L0,30 Z" transform="scale(0.5)" fill="#FFFFFF" fill-opacity="0.8" />
+    <circle cx="15" cy="15" r="7.5" fill="#121212" />
+  </g>
+</svg>

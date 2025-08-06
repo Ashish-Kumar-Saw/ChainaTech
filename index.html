@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristian Munoz - Product Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Logo Background -->
+                        <rect width="120" height="40" fill="transparent" />
+                        
+                        <!-- Chain Symbol -->
+                        <g transform="translate(15, 5)">
+                            <!-- First Chain Link -->
+                            <path d="M10,5 L20,15 L10,25 L0,15 Z" fill="#6366F1" />
+                            <circle cx="10" cy="15" r="5" fill="#121212" />
+                            
+                            <!-- Second Chain Link -->
+                            <path d="M20,5 L30,15 L20,25 L10,15 Z" fill="#8B5CF6" />
+                            <circle cx="20" cy="15" r="5" fill="#121212" />
+                        </g>
+                        
+                        <!-- Text -->
+                        <g transform="translate(50, 25)">
+                            <text font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#FFFFFF">
+                                ChainTech
+                            </text>
+                        </g>
+                    </svg>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About Me</a></li>
+                </ul>
+                <a href="#contact" class="contact-btn">Contact Me</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="title">PRODUCT<br>DESIGNER</h1>
+                    <h2 class="name">CRISTIAN MUNOZ</h2>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/cristianmunoz" aria-label="Instagram" class="social-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" rx="12" fill="white"/>
+                                <path d="M12 7.75C9.65 7.75 7.75 9.65 7.75 12C7.75 14.35 9.65 16.25 12 16.25C14.35 16.25 16.25 14.35 16.25 12C16.25 9.65 14.35 7.75 12 7.75ZM12 14.75C10.45 14.75 9.25 13.55 9.25 12C9.25 10.45 10.45 9.25 12 9.25C13.55 9.25 14.75 10.45 14.75 12C14.75 13.55 13.55 14.75 12 14.75ZM16.5 7.55C16.5 8.05 16.1 8.45 15.6 8.45C15.1 8.45 14.7 8.05 14.7 7.55C14.7 7.05 15.1 6.65 15.6 6.65C16.1 6.65 16.5 7.05 16.5 7.55ZM18.95 8.45C18.9 7.1 18.6 5.9 17.6 4.9C16.6 3.9 15.4 3.6 14.05 3.55C12.65 3.5 8.35 3.5 6.95 3.55C5.6 3.6 4.4 3.9 3.4 4.9C2.4 5.9 2.1 7.1 2.05 8.45C2 9.85 2 14.15 2.05 15.55C2.1 16.9 2.4 18.1 3.4 19.1C4.4 20.1 5.6 20.4 6.95 20.45C8.35 20.5 12.65 20.5 14.05 20.45C15.4 20.4 16.6 20.1 17.6 19.1C18.6 18.1 18.9 16.9 18.95 15.55C19 14.15 19 9.85 18.95 8.45ZM17.15 17.05C16.85 17.8 16.25 18.4 15.5 18.7C14.35 19.15 11.85 19.05 12 19.05C10.15 19.05 7.65 19.15 6.5 18.7C5.75 18.4 5.15 17.8 4.85 17.05C4.4 15.9 4.5 13.4 4.5 12C4.5 10.6 4.4 8.1 4.85 6.95C5.15 6.2 5.75 5.6 6.5 5.3C7.65 4.85 10.15 4.95 12 4.95C13.85 4.95 16.35 4.85 17.5 5.3C18.25 5.6 18.85 6.2 19.15 6.95C19.6 8.1 19.5 10.6 19.5 12C19.5 13.4 19.6 15.9 19.15 17.05H17.15Z" fill="black"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/cristianmunoz" aria-label="Facebook" class="social-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" rx="12" fill="white"/>
+                                <path d="M13.5 8.5H15V6.5H13.5C12.05 6.5 10.85 7.7 10.85 9.15V10.25H9.25V12.25H10.85V18H12.85V12.25H14.5L14.85 10.25H12.85V9.15C12.85 8.85 13.2 8.5 13.5 8.5Z" fill="black"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/cristianmunoz" aria-label="LinkedIn" class="social-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" rx="12" fill="white"/>
+                                <path d="M8 17H5.5V9.5H8V17ZM6.75 8.25C5.9 8.25 5.25 7.6 5.25 6.75C5.25 5.9 5.9 5.25 6.75 5.25C7.6 5.25 8.25 5.9 8.25 6.75C8.25 7.6 7.6 8.25 6.75 8.25ZM18 17H15.5V13.25C15.5 12.3 15.5 11.1 14.2 11.1C12.9 11.1 12.7 12.15 12.7 13.2V17H10.2V9.5H12.6V10.65H12.65C13 10 13.85 9.3 15.1 9.3C17.65 9.3 18 11 18 13.15V17Z" fill="black"/>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/cristianmunoz" aria-label="Twitter" class="social-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" rx="12" fill="white"/>
+                                <path d="M19.05 8.25C18.55 8.5 18 8.65 17.4 8.75C18 8.4 18.5 7.85 18.7 7.15C18.15 7.5 17.55 7.75 16.9 7.9C16.4 7.3 15.65 7 14.8 7C13.15 7 11.85 8.35 11.85 10C11.85 10.25 11.85 10.5 11.95 10.7C9.45 10.6 7.2 9.4 5.7 7.55C5.4 8.05 5.25 8.6 5.25 9.2C5.25 10.3 5.8 11.3 6.65 11.85C6.2 11.85 5.75 11.7 5.4 11.5V11.55C5.4 13 6.4 14.2 7.75 14.45C7.5 14.5 7.2 14.55 6.9 14.55C6.7 14.55 6.5 14.55 6.35 14.5C6.7 15.7 7.85 16.55 9.15 16.55C8.1 17.35 6.8 17.8 5.35 17.8C5.1 17.8 4.85 17.8 4.6 17.75C6 18.6 7.55 19.05 9.25 19.05C14.8 19.05 17.8 14.6 17.8 10.75V10.35C18.4 10 18.85 9.5 19.2 8.95L19.05 8.25Z" fill="black"/>
+                            </svg>
+                        </a>
+                        <a href="https://t.me/cristianmunoz" aria-label="Telegram" class="social-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" rx="12" fill="white"/>
+                                <path d="M17.25 6.75L15.15 16.85C15.05 17.35 14.7 17.5 14.3 17.3L11.3 15.1L9.85 16.5C9.7 16.65 9.6 16.75 9.3 16.75L9.5 13.65L14.85 8.8C15.1 8.6 14.8 8.45 14.5 8.65L7.9 12.85L4.9 11.9C4.4 11.75 4.4 11.35 5 11.15L16.5 6.25C16.9 6.1 17.35 6.4 17.25 6.75Z" fill="black"/>
+                            </svg>
+                        </a>
+                        <a href="https://medium.com/@cristianmunoz" aria-label="Medium" class="social-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" rx="12" fill="white"/>
+                                <path d="M6.5 8.25V16.5H12.5C15.25 16.5 17.5 14.25 17.5 11.5C17.5 8.75 15.25 6.5 12.5 6.5H8.25V8.25H12.5C14.3 8.25 15.75 9.7 15.75 11.5C15.75 13.3 14.3 14.75 12.5 14.75H8.25V8.25H6.5Z" fill="black"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <a href="#" class="cv-btn">Download Curriculum vitae <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 12L8 4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M4 8L8 12L12 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></a>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/workspace.svg" alt="Designer workspace with laptop and design tools">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stats-container">
+                <div class="stat-item">
+                    <h3 class="stat-value">90%</h3>
+                    <p class="stat-label">Job Success<br>Score on Upwork</p>
+                </div>
+                <div class="stat-divider">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 0C20.7879 5.28869 23.1734 10.1455 27.0209 14.0209C30.8683 17.8964 35.7113 20.2121 41 21C35.7113 21.7879 30.8683 24.1734 27.0209 28.0209C23.1734 31.8683 20.7879 36.7113 20 42C19.2121 36.7113 16.8266 31.8683 12.9791 28.0209C9.13165 24.1734 4.28869 21.7879 -1 21C4.28869 20.2121 9.13165 17.8964 12.9791 14.0209C16.8266 10.1455 19.2121 5.28869 20 0Z" fill="#8AE7B3"/>
+                    </svg>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-value">>25.000</h3>
+                    <p class="stat-label">Duplicates on Figma<br>Community</p>
+                </div>
+                <div class="stat-divider">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 0C20.7879 5.28869 23.1734 10.1455 27.0209 14.0209C30.8683 17.8964 35.7113 20.2121 41 21C35.7113 21.7879 30.8683 24.1734 27.0209 28.0209C23.1734 31.8683 20.7879 36.7113 20 42C19.2121 36.7113 16.8266 31.8683 12.9791 28.0209C9.13165 24.1734 4.28869 21.7879 -1 21C4.28869 20.2121 9.13165 17.8964 12.9791 14.0209C16.8266 10.1455 19.2121 5.28869 20 0Z" fill="#8AE7B3"/>
+                    </svg>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-value">>2K</h3>
+                    <p class="stat-label">In Finished<br>Works</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">PORTFOLIO</h2>
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio-1.svg" alt="Chaintech Product">
+                    </div>
+                    <h3 class="portfolio-title">Chaintech Product</h3>
+                    <div class="portfolio-tags">
+                        <span class="tag">UX Design</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="#" class="portfolio-link">View Product Detail</a>
+                </div>
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio-2.svg" alt="Chaintech Product">
+                    </div>
+                    <h3 class="portfolio-title">Chaintech Product</h3>
+                    <div class="portfolio-tags">
+                        <span class="tag">UX Design</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="#" class="portfolio-link">View Product Detail</a>
+                </div>
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio-3.svg" alt="Chaintech Product">
+                    </div>
+                    <h3 class="portfolio-title">Chaintech Product</h3>
+                    <div class="portfolio-tags">
+                        <span class="tag">UX Design</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="#" class="portfolio-link">View Product Detail</a>
+                </div>
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio-4.svg" alt="Chaintech Product">
+                    </div>
+                    <h3 class="portfolio-title">Chaintech Product</h3>
+                    <div class="portfolio-tags">
+                        <span class="tag">UX Design</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="#" class="portfolio-link">View Product Detail</a>
+                </div>
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio-5.svg" alt="Chaintech Product">
+                    </div>
+                    <h3 class="portfolio-title">Chaintech Product</h3>
+                    <div class="portfolio-tags">
+                        <span class="tag">UX Design</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="#" class="portfolio-link">View Product Detail</a>
+                </div>
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio-6.svg" alt="Chaintech Product">
+                    </div>
+                    <h3 class="portfolio-title">Chaintech Product</h3>
+                    <div class="portfolio-tags">
+                        <span class="tag">UX Design</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="#" class="portfolio-link">View Product Detail</a>
+                </div>
+                <!-- Portfolio Item 7 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio-7.svg" alt="Chaintech Product">
+                    </div>
+                    <h3 class="portfolio-title">Chaintech Product</h3>
+                    <div class="portfolio-tags">
+                        <span class="tag">UX Design</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="#" class="portfolio-link">View Product Detail</a>
+                </div>
+                <!-- Portfolio Item 8 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/portfolio-8.svg" alt="Chaintech Product">
+                    </div>
+                    <h3 class="portfolio-title">Chaintech Product</h3>
+                    <div class="portfolio-tags">
+                        <span class="tag">UX Design</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="#" class="portfolio-link">View Product Detail</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">SKILLS</h2>
+            <div class="skills-grid">
+                <!-- Skill 1 -->
+                <div class="skill-item">
+                    <div class="skill-chart">
+                        <svg width="160" height="160" viewBox="0 0 160 160">
+                            <circle cx="80" cy="80" r="70" fill="none" stroke="#333" stroke-width="20"/>
+                            <circle cx="80" cy="80" r="70" fill="none" stroke="url(#gradient1)" stroke-width="20" stroke-dasharray="439.6" stroke-dashoffset="13.2" transform="rotate(-90 80 80)"/>
+                            <defs>
+                                <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" stop-color="#FF6B6B" />
+                                    <stop offset="100%" stop-color="#FFD166" />
+                                </linearGradient>
+                            </defs>
+                            <text x="80" y="90" text-anchor="middle" fill="white" font-size="36" font-weight="bold">97%</text>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">UX Design</h3>
+                    <p class="skill-description">UI design is the process of designing the visual and interactive elements of a user interface, such as buttons, icons, and layout, to create an intuitive and pleasing experience for users.</p>
+                </div>
+                <!-- Skill 2 -->
+                <div class="skill-item">
+                    <div class="skill-chart">
+                        <svg width="160" height="160" viewBox="0 0 160 160">
+                            <circle cx="80" cy="80" r="70" fill="none" stroke="#333" stroke-width="20"/>
+                            <circle cx="80" cy="80" r="70" fill="none" stroke="url(#gradient2)" stroke-width="20" stroke-dasharray="439.6" stroke-dashoffset="13.2" transform="rotate(-90 80 80)"/>
+                            <defs>
+                                <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" stop-color="#FF6B6B" />
+                                    <stop offset="100%" stop-color="#FFD166" />
+                                </linearGradient>
+                            </defs>
+                            <text x="80" y="90" text-anchor="middle" fill="white" font-size="36" font-weight="bold">97%</text>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">UI Design</h3>
+                    <p class="skill-description">UI design is the process of designing the visual and interactive elements of a user interface, such as buttons, icons, and layout, to create an intuitive and pleasing experience for users.</p>
+                </div>
+                <!-- Skill 3 -->
+                <div class="skill-item">
+                    <div class="skill-chart">
+                        <svg width="160" height="160" viewBox="0 0 160 160">
+                            <circle cx="80" cy="80" r="70" fill="none" stroke="#333" stroke-width="20"/>
+                            <circle cx="80" cy="80" r="70" fill="none" stroke="url(#gradient3)" stroke-width="20" stroke-dasharray="439.6" stroke-dashoffset="13.2" transform="rotate(-90 80 80)"/>
+                            <defs>
+                                <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" stop-color="#FF6B6B" />
+                                    <stop offset="100%" stop-color="#FFD166" />
+                                </linearGradient>
+                            </defs>
+                            <text x="80" y="90" text-anchor="middle" fill="white" font-size="36" font-weight="bold">97%</text>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">UX Design</h3>
+                    <p class="skill-description">UI design is the process of designing the visual and interactive elements of a user interface, such as buttons, icons, and layout, to create an intuitive and pleasing experience for users.</p>
+                </div>
+                <!-- Skill 4 -->
+                <div class="skill-item">
+                    <div class="skill-chart">
+                        <svg width="160" height="160" viewBox="0 0 160 160">
+                            <circle cx="80" cy="80" r="70" fill="none" stroke="#333" stroke-width="20"/>
+                            <circle cx="80" cy="80" r="70" fill="none" stroke="url(#gradient4)" stroke-width="20" stroke-dasharray="439.6" stroke-dashoffset="13.2" transform="rotate(-90 80 80)"/>
+                            <defs>
+                                <linearGradient id="gradient4" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" stop-color="#FF6B6B" />
+                                    <stop offset="100%" stop-color="#FFD166" />
+                                </linearGradient>
+                            </defs>
+                            <text x="80" y="90" text-anchor="middle" fill="white" font-size="36" font-weight="bold">97%</text>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">UX Design</h3>
+                    <p class="skill-description">UI design is the process of designing the visual and interactive elements of a user interface, such as buttons, icons, and layout, to create an intuitive and pleasing experience for users.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class="container">
+            <div class="testimonial-content">
+                <h3 class="testimonial-author">Kaleb Lechtenberg</h3>
+                <p class="testimonial-text">"Working with this freelancer has been great. His attention to detail is unparalleled and finished all work ahead of schedule. Will gladly send more work and I do not hesitate to recommend him to you on your project also."</p>
+                <div class="testimonial-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 8L8 16L24 24L40 16L24 8Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8 32L24 40L40 32" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8 24L24 32L40 24" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-container">
+                <div class="cta-image">
+                    <img src="assets/workspace.svg" alt="Designer workspace">
+                </div>
+                <div class="cta-content">
+                    <p class="cta-text">Thanks for visiting my website<br>If you have any questions you can write me to any of my social networks, I am sure I will answer you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">
+                    <svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Logo Background -->
+                        <rect width="120" height="40" fill="transparent" />
+                        
+                        <!-- Chain Symbol -->
+                        <g transform="translate(15, 5)">
+                            <!-- First Chain Link -->
+                            <path d="M10,5 L20,15 L10,25 L0,15 Z" fill="#6366F1" />
+                            <circle cx="10" cy="15" r="5" fill="#121212" />
+                            
+                            <!-- Second Chain Link -->
+                            <path d="M20,5 L30,15 L20,25 L10,15 Z" fill="#8B5CF6" />
+                            <circle cx="20" cy="15" r="5" fill="#121212" />
+                        </g>
+                        
+                        <!-- Text -->
+                        <g transform="translate(50, 25)">
+                            <text font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#FFFFFF">
+                                ChainTech
+                            </text>
+                        </g>
+                    </svg>
+                </div>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="assets/social-icons.js"></script>
+</body>
+</html>
